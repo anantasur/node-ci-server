@@ -1,0 +1,8 @@
+{
+	"url":"https://github.com/anantasur/ADDA.git",
+	"tasks":{
+		"install":"npm install",
+		"db":"npm run db_operations",
+		"test":"npm run test"
+	}
+}
