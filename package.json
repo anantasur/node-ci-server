@@ -1,0 +1,17 @@
+{
+  "name": "ci_server",
+  "version": "1.0.0",
+  "description": "continuous integration server",
+  "main": "ci_server.js",
+  "scripts": {
+    "start": "node ci_server.js",
+    "test": "npm install && mocha tests/*tests.js"
+  },
+  "dependencies": {},
+  "devDependencies":{
+    "chai": "1.10.0",
+    "mocha":"2.0.1"
+  },
+  "author": "Ananthu R V",
+  "license": "ISC"
+}
